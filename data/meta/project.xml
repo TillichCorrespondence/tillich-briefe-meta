@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über das Projekt</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Lorem ipsum dolor sit amet, <ref target="https://de.wikipedia.org/wiki/Paul_Tillich">consectetur</ref> adipiscing elit. Quisque ultrices eros vitae hendrerit pulvinar. Nullam dapibus, erat nec pretium posuere, enim ligula euismod ante, at fermentum velit risus id sem. Nullam dapibus vestibulum purus, eu dapibus mi aliquet et. Etiam interdum urna ut risus blandit, at tempus purus suscipit. Morbi nec tempor orci. Donec sollicitudin leo quis volutpat molestie. Phasellus molestie condimentum massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam faucibus, ligula id bibendum imperdiet, lorem dui posuere lectus, eu volutpat neque metus a neque. In consequat hendrerit justo, eget tempus nisi convallis at. Suspendisse ornare mattis mauris. Pellentesque vehicula augue vel semper interdum. Suspendisse et ultrices lorem, eu fermentum arcu. Cras id tellus eros. Suspendisse quis turpis erat. </p>
+         <p>
+            <list>
+               <item>lorem</item>
+               <item>dolor</item>
+            </list>
+         </p>
+      </body>
+   </text>
+</TEI>
